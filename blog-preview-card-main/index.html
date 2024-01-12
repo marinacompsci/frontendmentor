@@ -5,30 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Blog preview card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
+<body class="background_color__yellow">
 
-  Learning
+  <div class="post background_color__white post_border">
+    <div class="header margin_medium__top">
+      <img class="border_radius__medium" src="./assets/images/illustration-article.svg" alt="">
+    </div>
 
-  Published 21 Dec 2023
+    <div class="margin_medium__top">
+      <div class="tag small_font background_color__yellow border_radius__fine">
+        Learning
+      </div>
+      <div class="date small_font margin_small__top">
+        Published <span>21 Dec 2023</span>
+      </div>
+    </div>
 
-  HTML & CSS foundations
+    <div class="content margin_medium__top">
+      <h2 class="title">HTML & CSS foundations</h2>
+      <p class="snippet">
+        These languages are the backbone of every website, defining structure, content, and presentation.
+      </p>
+    </div>
+    <div class="author small_font margin_medium__top margin_medium__bottom">
+        <img class="author_img" src="./assets/images/image-avatar.webp" alt="">
+        <div class="author_info">
+          <h3>Greg Hooper</h3>
+        </div>
+    </div>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
 </html>
